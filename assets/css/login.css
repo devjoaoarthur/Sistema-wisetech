@@ -120,3 +120,12 @@ body{
     transition: 0.5s ease;
     transform: scale(1.01);
 }
+
+@media (max-width: 768px) {
+    .container-left{
+        display: none;
+    }
+    .container-right{
+        width: 90%;
+    }
+}
